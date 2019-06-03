@@ -7,7 +7,8 @@ The real work is performed by two small Python programs: leds.py is used for con
 ## Installation
 1.	Install Homebridge using `npm install -g homebridge`.
 2.	Install this plugin `npm install -g homebridge-sensehat`.
-3.	Update your configuration file. See below for an example.
+3.  Install this plugin `npm install rpi_ws281x`.
+4.	Update your configuration file. See below for an example.
 
 ## Notes
 1. script_path (with trailing /) should point to the directory where the two python scripts are located.
