@@ -4,6 +4,8 @@ A Homebridge plugin for a Sense HAT equipped Raspberry Pi
 
 The real work is performed by two small Python programs: leds.py is used for controlling the Sense HAT's LEDs and sensors.py for reading the temperature, humidity and air pressure sensors.
 
+Fork of srob/hombridge-sensehat additing suuport for WS281B led strips connected to the Pi through the GPIO pins that aren't used by the Sense HAT.
+
 ## Installation
 1.	Install Homebridge using `npm install -g homebridge`.
 2.	Install this plugin `npm install -g homebridge-sensehat`.
