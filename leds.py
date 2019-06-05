@@ -40,8 +40,8 @@ if (len(sys.argv) == 5):
         rgb = hsv2rgb(h, s, v)
         print(rgb)
         for i in range(strip.numPixels()):
-		    strip.setPixelColor(i, Color(int(rgb[0]*255),int(rgb[1]*255),int(rgb[2]*255)))
-		    strip.show()
+		    strip.setPixelColor(i, Color(int(rgb[0],int(rgb[1]),int(rgb[2]))))
+        strip.show()
         sense.clear(rgb)
     else:
         sense.clear(0, 0, 0)
